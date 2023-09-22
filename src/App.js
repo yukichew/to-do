@@ -133,9 +133,9 @@ function App() {
         deleteTask={deleteTask}
       />
 
-      <button onClick={filteredTasks} className="btn btn-lg btn-success mr-20">
+      {/* <button onClick={filteredTasks} className="btn btn-lg btn-success mr-20">
         Show Completed Tasks
-      </button>
+      </button> */}
     </div>
   );
 }
